@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recyclerViewRow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="5dp"
+    android:elevation="4dp">
+
+    <TextView
+        android:id="@+id/leagueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:text="League A"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:textStyle="italic|bold"
+        android:fontFamily="serif"/>
+
+    <TextView
+        android:id="@+id/dateEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:text="12/25/05 08:55"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:textStyle="italic|bold"
+        android:fontFamily="serif"/>
+
+    <LinearLayout
+        android:id="@+id/homeAwayTitleLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/leagueTextView"
+        android:layout_marginTop="10dp"
+        android:weightSum="6">
+
+        <TextView
+            android:id="@+id/homeTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textSize="12dp"
+            android:textColor="@color/white"
+            android:textStyle="italic|bold"
+            android:fontFamily="serif"
+            android:paddingStart="20dp"
+            android:layout_weight="3"/>
+
+        <TextView
+            android:id="@+id/awayTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Away"
+            android:textSize="12dp"
+            android:paddingStart="20dp"
+            android:textColor="@color/white"
+            android:fontFamily="serif"
+            android:textStyle="italic|bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/homeAwayLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/homeAwayTitleLinearLayout"
+        android:layout_marginTop="10dp"
+        android:weightSum="11">
+
+        <TextView
+            android:id="@+id/homeEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:paddingStart="20dp"
+            android:layout_weight="5"/>
+
+        <TextView
+            android:id="@+id/x"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="X"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:paddingStart="5dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/awayEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="Away"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:fontFamily="serif"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/predictionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/homeAwayLinearLayout"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:fontFamily="serif"
+        android:textStyle="bold"/>
+</RelativeLayout>

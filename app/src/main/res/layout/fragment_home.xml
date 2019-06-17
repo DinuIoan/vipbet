@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Welcome to Vip Bet"
+        android:textStyle="bold"
+        android:textColor="@color/predictionsTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/availablePredictionsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Available predictions"
+        android:textStyle="bold"
+        android:layout_below="@+id/homeTitle"
+        android:textColor="@color/predictionsTitle"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/availablePredictionsNumber"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/available_predictions"
+        android:layout_below="@+id/availablePredictionsTitle"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@color/availablePrediction"
+        android:text="5"
+        android:textSize="25dp"
+        android:gravity="center"/>
+
+</RelativeLayout>

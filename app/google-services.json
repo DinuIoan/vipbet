@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "458843083341",
+    "firebase_url": "https://vipbet-cbfb6.firebaseio.com",
+    "project_id": "vipbet-cbfb6",
+    "storage_bucket": "vipbet-cbfb6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458843083341:android:661daaaaaff1c4f0",
+        "android_client_info": {
+          "package_name": "com.example.vipbet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458843083341-5ctb58pohoq3j4efek2irb932vpedmg6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vipbet",
+            "certificate_hash": "5ec567f8725391bf31c30524447aee364cfb9bd3"
+          }
+        },
+        {
+          "client_id": "458843083341-g2kjv11td3fnehrrhnkchvsl9d2m5aeb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5oaBR4lLoY0TxnZpc9kDMMVnzO9mg2Lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458843083341-g2kjv11td3fnehrrhnkchvsl9d2m5aeb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
