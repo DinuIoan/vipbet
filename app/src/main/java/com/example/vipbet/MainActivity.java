@@ -3,6 +3,7 @@ package com.example.vipbet;
 import android.os.Bundle;
 
 import com.example.vipbet.dashboard.DashboardFragment;
+import com.example.vipbet.home.HomeFragment;
 import com.example.vipbet.notification.NotificationFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         fragmentManager = getSupportFragmentManager();
         mTextMessage = findViewById(R.id.message);
         navView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+        navView.setSelectedItemId(R.id.navigation_home);
     }
 
     private void changeFragment(Fragment fragment) {

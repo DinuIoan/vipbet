@@ -3,4 +3,17 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="noAccountYetCreateOne">No account yet? Create one</string>
+    <string name="login">Login</string>
+    <string name="loginAnonynously">Sign in anonymously</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password_login">The password length should be equal or bigger than 8 characters</string>
+    <string name="error_invalid_password_sign_up">The password should have minimun 8 characters,
+        at least one upper character,one lower character and one number</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="already_a_member_login">Already a member? Login</string>
 </resources>
