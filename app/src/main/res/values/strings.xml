@@ -5,7 +5,7 @@
     <string name="title_notifications">Notifications</string>
     <string name="noAccountYetCreateOne">No account yet? Create one</string>
     <string name="login">Login</string>
-    <string name="loginAnonynously">Sign in anonymously</string>
+    <string name="loginAnonynously">Sign in as guest</string>
     <string name="password">Password</string>
     <string name="email">Email</string>
 

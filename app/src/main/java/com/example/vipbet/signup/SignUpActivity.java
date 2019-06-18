@@ -32,6 +32,8 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+import java.util.Date;
+
 public class SignUpActivity extends AppCompatActivity {
     private EditText nameTextView;
     private EditText emailTextView;
@@ -150,7 +152,8 @@ public class SignUpActivity extends AppCompatActivity {
                             firebaseRepository.addUser(
                                     new User(user.getUid(),
                                             name,
-                                            false));
+                                            false,
+                                            new Date().toString()));
                             Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                             startActivity(intent);

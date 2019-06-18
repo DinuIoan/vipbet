@@ -21,12 +21,18 @@ import android.widget.Toast;
 
 import com.example.vipbet.MainActivity;
 import com.example.vipbet.R;
+import com.example.vipbet.database.FirebaseRepository;
+import com.example.vipbet.model.User;
 import com.example.vipbet.signup.SignUpActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+
+import java.util.Date;
+import java.util.Random;
+import java.util.UUID;
 
 public class LoginActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
@@ -35,6 +41,8 @@ public class LoginActivity extends AppCompatActivity {
     private TextView linkSignupTextView;
     private View mProgressView;
     private View mLoginFormView;
+    private FirebaseRepository firebaseRepository;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +55,7 @@ public class LoginActivity extends AppCompatActivity {
         linkSignupTextView = findViewById(R.id.link_signup);
         mLoginFormView = findViewById(R.id.login_form);
         mProgressView = findViewById(R.id.login_progress);
+        firebaseRepository = new FirebaseRepository();
 
         mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
@@ -179,6 +188,12 @@ public class LoginActivity extends AppCompatActivity {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d("TAG", "signInAnonymously:success");
                             FirebaseUser user = mAuth.getCurrentUser();
+                            Random rand = new Random();
+                            firebaseRepository.addUser(
+                                    new User(user.getUid(),
+                                            "Guest" + rand.nextInt(100000000),
+                                            false,
+                                            new Date().toString()));
                             updateUIToMainActivity();
                         } else {
                             // If sign in fails, display a message to the user.
