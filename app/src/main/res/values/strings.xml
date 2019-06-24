@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">VipBet</string>
+    <string name="app_name">Vip Bet Community</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
-    <string name="noAccountYetCreateOne">No account yet? Create one</string>
+    <string name="noAccountYetCreateOne">Have an admin registration code? Create admin account</string>
     <string name="login">Login</string>
     <string name="loginAnonynously">Sign in as guest</string>
     <string name="password">Password</string>
@@ -15,5 +15,10 @@
         at least one upper character,one lower character and one number</string>
     <string name="error_incorrect_password">This password is incorrect</string>
     <string name="error_field_required">This field is required</string>
+    <string name="error_admin_registration_code">Registration code invalid</string>
     <string name="already_a_member_login">Already a member? Login</string>
+    <string name="description">The biggest community online of tippsters is working day and night to evaluate and find out most of the sure tips that are on the betting market. Check the app permanently to get your sure tip. Sure bets are usually posted few moments before the game starts. Our team of tipsters have a solid background in SURE tips, winning almost every tip over the years.</string>
+    <string name="good_luck">Good luck !</string>
+    <string name="sure_tips">Sure tips</string>
+    <string name="daily_tips">Daily tips</string>
 </resources>

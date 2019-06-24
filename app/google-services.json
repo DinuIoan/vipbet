@@ -42,6 +42,35 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458843083341:android:63a735e75c9049ad",
+        "android_client_info": {
+          "package_name": "com.idinu.vipbet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458843083341-g2kjv11td3fnehrrhnkchvsl9d2m5aeb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5oaBR4lLoY0TxnZpc9kDMMVnzO9mg2Lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458843083341-g2kjv11td3fnehrrhnkchvsl9d2m5aeb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"

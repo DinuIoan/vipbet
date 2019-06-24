@@ -3,9 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:layout_marginTop="10dp"
-    android:layout_marginEnd="5dp"
-    android:layout_marginBottom="10dp">
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginBottom="5dp"
+    android:elevation="4dp"
+    android:background="#ECEFF1"
+    android:padding="10dp">
 
     <ImageView
         android:id="@+id/appIcon"
@@ -27,7 +31,7 @@
         android:layout_marginStart="20dp"
         android:text="Title"
         android:textSize="17dp"
-        android:textColor="#37474F"
+        android:textColor="@color/themeMainColorDarkBlue"
         android:textStyle="bold|italic"
         />
 
@@ -37,7 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/appIcon"
         android:layout_below="@id/titleTextView"
-        android:textColor="#607D8B"
+        android:textColor="@color/themeMainColorDarkBlue"
         android:textSize="15dp"/>
 
     <TextView
@@ -47,7 +51,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:textSize="10dp"
-        android:textColor="#37474F"
+        android:textColor="@color/themeMainColorDarkBlue"
         android:layout_below="@+id/messageTextView"/>
 
 
