@@ -38,9 +38,9 @@
             android:layout_marginEnd="10dp"
             android:elevation="4dp">
 
-            <ImageView android:src="@drawable/common_google_signin_btn_text_dark"
-                android:layout_width="wrap_content"
-                android:layout_height="72dp"
+            <ImageView android:src="@mipmap/ic_launcher_round_vipapp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_marginBottom="10dp"
                 android:layout_gravity="center_horizontal" />
 

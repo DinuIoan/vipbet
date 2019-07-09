@@ -15,7 +15,7 @@
         android:id="@+id/appIcon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher_round"
+        android:src="@mipmap/ic_launcher_round_vipapp"
         android:layout_marginTop="5dp"
         android:layout_marginStart="5dp"
         android:layout_marginBottom="5dp"
